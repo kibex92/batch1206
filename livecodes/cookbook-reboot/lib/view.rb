@@ -6,7 +6,11 @@ class View
   
   def display_list(recipes)
     recipes.each_with_index do |recipe, index|
-      puts "#{index + 1}. #{recipe.name} - #{recipe.description}"
+      # TODO: Display also the rating
+      status = recipe.done? ? "[X]" : "[ ]"
+      print"#{index + 1}. #{status} #{recipe.name} - #{recipe.description}"
+      print "(#{recipe.rating}/5)"
+      puts  ", Prep: #{recipe.prep_time}"
     end
   end
 
