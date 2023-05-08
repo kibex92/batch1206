@@ -1,0 +1,17 @@
+<h1>Our restaurants</h1>
+
+<form action="/restaurants" method="POST">
+  <label for="">Name</label>
+  <input type="text" name="name">
+  <label for="">City</label>
+  <input type="text" name="city">
+  <button type="submit" >Add a new restaurant</button>
+</form>
+
+<ul>
+  <% @restaurants.each do |restaurant|  %>
+    <li>
+      <a href="restaurants/<%= restaurant.id%>"><%= restaurant.name %></a>
+    </li>
+  <% end %>
+</ul>
