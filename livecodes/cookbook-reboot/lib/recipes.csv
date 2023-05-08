@@ -1,4 +1,5 @@
-pizza,great
-burger,cool
-fish,belah
-brigadeiro,F******* amazing!
+name,description,rating,prep_time,done
+askjdha,askjdhas,aksjdh,,false
+askdjha,askjdhad,aksjhasd,asdkjh,false
+Croatian Cevapi,"My Croatian husband loves cevapi, so I tried making some for him and he loved them. I made it with beef and veal, which I know is not traditional, but it was so delicious! This recipe has become a staple in our house!",4.8,,false
+Balkan-Style Savory Cornbread,"Savory, salty, and tangy, this cornbread is great for breakfast, lunch, or a snack. The recipe is a mashup of Bulgarian banitsa and Bosnian razljevak. Serve warm, topped with plain yogurt or eat it by its lonesome self. If you love sweet cornbread, this probably isn't your cup of tea.",4.7,1 hrs,true
